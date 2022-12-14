@@ -1,0 +1,96 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    border-radius: 50%;
+    
+}
+.square1{
+    width: 100px;
+    height: 100px;
+    background:rgb(70, 134, 70);
+    position: absolute;
+    left: 50px;
+    border-radius: 50%;
+}
+.square2{
+    width: 100px;
+    height: 100px;
+    background: rgb(138, 151, 138);
+    position: absolute;
+    left: 50px;
+    border-radius: 50%;
+}
+.navbar{
+    height: 100px;
+    background: rgb(99, 25, 25);
+    margin-top: 50px;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 32px;
+    width: 85px;
+    border-radius: 15px;
+    padding: 6px;
+    background: red;
+   margin-bottom: 30px;
+   position: absolute;
+   bottom: 300px;
+   left: 20px;
+    
+}
+button{
+    background: red;
+    padding: 11px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    left: 200px;
+    bottom: 327px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.submit a{
+    text-decoration:none;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+.blue{
+    width: 300px;
+    height: 200px;
+    background: rgb(5, 5, 56);
+    position: relative;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background: aqua;
+}
+.tr{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    bottom: 150px;
+}
+.bl{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 150px;
+}
+.br{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
